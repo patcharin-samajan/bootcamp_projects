@@ -1,3 +1,32 @@
+class ATM :
+    def __init__(self,name,balance,promptpay,password):
+        self.name = name
+        self.balance = balance
+        self.promtpay = promptpay
+        self.password = password
+    def check_balance(self):
+        data = f"Account: {self.name}, balance: {self.balance}, \npromptpay: {self.promtpay}, password: {self.password}"
+        print(data)
+    def deposit(self,money):
+        self.balance += money
+        print(f"New balance: {self.balance}")
+        print("Deposit successfully.")
+    def withdraw(self,money):
+        self.balance -= money
+        print(f"New balance: {self.balance}")
+        print("Withdraw successfully.")
+    def transfer(self,money,account_transfer: str):
+        self.balance -= money
+        print(f"Transter to {account_transfer},total {money} ")
+        print(f"New Balance: {self.balance} ")
+    def change_promptpay(self,new_promtpay: str):
+        self.promtpay = new_promtpay
+        print(f"New promptpay: {self.promtpay}")
+        print("Your prompypay has been changed")
+    def change_password(self,new_password: str):
+        self.password = new_password
+        print(f"New password: {self.password}")
+        print("Your password has been changed")
 
 #input data
 customers = []
