@@ -2,7 +2,7 @@
 
 Data science bootcamp
 
-We learn 10 sprints during 4 month programe.
+We learn 10 sprints during 4 month program.
 
 - Spreadsheets
 - SQL Database
@@ -12,5 +12,5 @@ We learn 10 sprints during 4 month programe.
 - Statistics
 - Intro to 'Classical' Machine Learning
 - Intro to Python
-- Essentrail Python for Data Analyst
+- Essential Python for Data Analyst
 - Dashboard
